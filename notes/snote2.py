@@ -22,7 +22,7 @@ def hanoi(n,src,dst,mid):
         hanoi(n-1,mid,dst,src)
 
 
-#print(factorial(50))
+print(factorial(10))
 print(fibonacci(11))
 hanoi(3,'A','C','B')
 print(count)
